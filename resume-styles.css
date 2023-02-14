@@ -1,0 +1,169 @@
+.container{
+    width:90%;
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+    color:#fff;
+    padding: 5px;
+    background-color: rgb(4, 5, 5);
+}
+
+.leftbar{
+    width: 25%;
+    float: left;
+    height: auto;
+    padding-top: 50px;
+    background-color: rgba(26, 20, 1, 0.671);
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile img{
+    width: 60%; 
+    border-radius: 50%;
+}
+
+.leftbar ul{
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.leftbar ul li{
+    line-height: 50px;
+    width: 100%;
+    margin: 10px 0; 
+    border-bottom: 1px double blanchedalmond;
+}
+
+.leftbar ul li a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    text-align:justify;
+    color:rgba(255, 81, 0, 0.986)    
+}   
+
+.leftbar a:hover{
+    font-size: 28px;
+    color: rgb(4, 1, 44);
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.leftbar a:active{
+    color:lawngreen;
+}
+
+.leftbar a:visited{
+    color:rgb(117, 4, 117);
+}
+
+.maincontent{
+    width: 70%;   
+    float: right;
+}
+
+.output{
+    display:none;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.output:target{
+    display: block;
+}
+
+.details tr, td, th{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: justify;
+}
+
+
+.clear{
+    clear:both;
+}
+
+@media only screen and (max-width:992px){
+    .leftbar{
+        width:100%;
+    }
+    .profile img{
+        width: 40%; 
+        border-radius: 50%;
+    }
+
+    .leftbar ul li a{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .maincontent{
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    .leftbar{
+        width:100%;
+    }
+    .profile img{
+        width: 40%; 
+        border-radius: 50%;
+    }
+}
+
+
+@media only screen and (max-width:667px){
+    .leftbar{
+        width:100%;
+    }
+    .profile img{
+        width: 40%; 
+        border-radius: 50%;
+    }
+
+    .leftbar ul li a{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .maincontent{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .leftbar{
+        width:100%;
+    }
+    .profile img{
+        width: 40%; 
+        border-radius: 50%;
+    }
+
+    .leftbar ul li a{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .maincontent{
+        width: 100%;
+    }
+
+    .details{
+        width: 90%;
+        font-size:13px;
+    }
+}
